@@ -93,6 +93,10 @@ Add your preferred license here (e.g., MIT License).
 Contributions, suggestions, and pull requests are welcome!
 
 
+
+
+
+
 -----------------------------------------------------------------------------------------------------------------------------------
 
 # 🐍 Snake Game (HTML / CSS / JavaScript)
