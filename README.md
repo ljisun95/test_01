@@ -1,5 +1,102 @@
 # 🐍 Snake Game (HTML / CSS / JavaScript)
 
+A simple web-based Snake Game built using pure HTML, CSS, and JavaScript.  
+Everything is contained in a **single HTML file**, making it easy to run and share.
+
+---
+
+## 🎮 Features
+
+- Control the snake using the arrow keys (↑ ↓ ← →).
+- When the snake moves beyond the screen boundary, it **warps to the opposite side** instead of triggering a game over.
+- Eating food increases your score and lengthens the snake.
+- Start or restart the game using the **Spacebar** or the on-screen button.
+- Built entirely with **HTML5 Canvas** and vanilla JavaScript—no external libraries required.
+
+---
+
+## 📂 Project Structure
+
+This project consists of a single file:
+
+```
+index.html
+```
+
+All CSS and JavaScript code is embedded directly inside the HTML file.
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository or download it as a ZIP file:
+
+```
+git clone https://github.com/your-username/your-repository.git
+```
+
+2. Open `index.html` in any modern web browser.
+
+---
+
+## 🕹️ Controls
+
+| Key | Action |
+|-----|--------|
+| ↑ | Move Up |
+| ↓ | Move Down |
+| ← | Move Left |
+| → | Move Right |
+| Space | Start / Restart Game |
+
+---
+
+## 📸 Screenshot
+
+(You can add your own screenshot here!)
+
+```
+![snake-game](./screenshot.png)
+```
+
+---
+
+## 🧩 Key Code Snippet
+
+### Screen Wrapping Logic
+
+The snake reappears on the opposite side when crossing the boundary:
+
+```js
+head.x = (head.x + tileCount) % tileCount;
+head.y = (head.y + tileCount) % tileCount;
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5 Canvas**
+- **CSS3**
+- **JavaScript (Vanilla)**
+
+---
+
+## 📜 License
+
+Add your preferred license here (e.g., MIT License).
+
+---
+
+## 🙌 Contributing
+
+Contributions, suggestions, and pull requests are welcome!
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+# 🐍 Snake Game (HTML / CSS / JavaScript)
+
 간단한 웹 기반 스네이크 게임입니다.  
 하나의 HTML 파일 안에 **HTML + CSS + JavaScript**가 모두 포함되어 있어 바로 실행할 수 있습니다.
 
